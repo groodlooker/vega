@@ -224,6 +224,10 @@ looker.plugins.visualizations.add({
               },
             }            
           };
+
+          if (config['size'] != "" && typeof config['size'] != "undefined") {
+            chart.vconcat[1].hconcat[0].layer[1].encoding.size = {"field": config['size'], "type":"quantitative", "title":dataProperties[config['size']]['title']};
+          }
     }
 
     console.log(chart);
@@ -410,6 +414,15 @@ function createOptions(queryResponse){
     type: "string",
     display: "select",
     values:[{"Yes":"yes"},{"No":""}],
+    default: ""
+  }
+  optionsResponse['masterList'].push({"NA":""});
+  optionsResponse['options']['size'] = {
+    label: "Size",
+    section: "2.Mark",
+    type: "string",
+    display: "select",
+    values: optionsResponse['masterList'],
     default: ""
   }
   return optionsResponse;
