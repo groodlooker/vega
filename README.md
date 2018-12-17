@@ -21,3 +21,6 @@ From Vega, "A contour plot depicts the density of data points using a set of dis
 # 2. Binned Scatter Plot with Histogram
 ![Screenshot](binned_scatter.png)
 ![Screenshot](binned_scatter_points.png)
+
+# 3. Sparklines with Min & Max (optional % change)
+![Screenshot](sparklines.png)
