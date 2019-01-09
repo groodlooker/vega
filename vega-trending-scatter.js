@@ -793,13 +793,13 @@ function createOptions(queryResponse){
   //   min: 1,
   //   max: 25
   // }
-  optionsResponse['options']['fixed_color'] = {
-    label: "Fixed Color",
-    section: "2.Mark",
-    type: "string",
-    display: "text",
-    default: "black" //#4C78A8
-  }
+  // optionsResponse['options']['fixed_color'] = {
+  //   label: "Fixed Color",
+  //   section: "2.Mark",
+  //   type: "string",
+  //   display: "text",
+  //   default: "black" //#4C78A8
+  // }
   // optionsResponse['options']['slide'] = {
   //   label: "Slide Through Time",
   //   section: "2.Mark",
