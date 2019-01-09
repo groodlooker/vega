@@ -24,3 +24,6 @@ From Vega, "A contour plot depicts the density of data points using a set of dis
 
 # 3. Sparklines with Min & Max (optional % change)
 ![Screenshot](sparklines.png)
+
+# 4. Trending Scatter Plot (Shift Click to Drill)
+![](trending_scatter.gif)
